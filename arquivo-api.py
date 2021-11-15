@@ -11,7 +11,7 @@ while True:
     cotacao = float(cotacoes[identi]['bid'])
 
     print(' ')
-    print('Cotação do {}: {:.2f}'.format(identi, cotacao))
+    print('Cotação atual do {}: {:.2f}'.format(identi, cotacao))
 
     valabso = valreal/cotacao
 
